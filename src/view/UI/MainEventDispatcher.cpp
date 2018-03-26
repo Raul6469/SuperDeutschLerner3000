@@ -145,6 +145,7 @@ void MainEventDispatcher::onButtonCloseEditingClicked ()
 void MainEventDispatcher::onButtonSaveLessonClicked ()
 {
 	m_controller->saveLesson ();
+	m_controller->closeLesson ();
 }
 
 void MainEventDispatcher::onButtonDeleteRowClicked ()
